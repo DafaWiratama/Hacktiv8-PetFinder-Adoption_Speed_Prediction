@@ -1,0 +1,8 @@
+font-end : https://pet-finder-analytic.herokuapp.com
+back-end : https://pet-finder-analytic-api.herokuapp.com
+    - /v1
+        - /options?Type={[Cat, Dog]}
+        - /imagepreview?Type={[Cat, Dog]}&{Multi-parameter from options}
+        - /inference?{Multi-parameter from options}
+example : https://pet-finder-analytic-api.herokuapp.com/v1/options?Type=Dog
+
